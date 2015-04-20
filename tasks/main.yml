@@ -10,7 +10,7 @@
 - name: Unarchive package | Kibana
   unarchive:
     src: /tmp/kibana-4.0.2-linux-x64.tar.gz
-    dest: /tmp
+    dest: /opt/kibana
     copy: no
   tags:
     - installation
