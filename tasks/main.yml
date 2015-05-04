@@ -7,6 +7,14 @@
     - installation
     - kibana
 
+- name: Directory Exists | /opt/kibana
+  file:
+    state: directory
+    path: /opt/kibana
+  tags:
+    - directory-structure
+    - kibana
+
 - name: Unarchive package | Kibana
   unarchive:
     src: /tmp/kibana-4.0.2-linux-x64.tar.gz
