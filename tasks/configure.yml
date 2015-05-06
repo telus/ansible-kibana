@@ -1,7 +1,7 @@
 ---
 - name: Upload Config | Kibana
   template: 
-    src: templates/config/kibana.yml
+    src: config/kibana.yml
     dest: /opt/kibana/kibana-4.0.2-linux-x64
   tags:
     - configuration
