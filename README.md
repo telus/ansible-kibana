@@ -1,6 +1,6 @@
 # ansible-kibana
 
-[Kibana](https://www.elastic.co/products/kibana) - Kibana | Explore & Visualize Your Data
+[Kibana](https://www.elastic.co/products/kibana) - Explore & Visualize Your Data
 
 [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 
