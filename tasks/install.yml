@@ -2,7 +2,7 @@
 - name: Fetch package | Kibana
   get_url:
     url: https://download.elastic.co/kibana/kibana/kibana-4.0.2-linux-x64.tar.gz
-    dest: /tmp/kibana-4.0.2-linux-x64.tar.gz
+    dest: /tmp/kibana-4.1.2-linux-x64.tar.gz
   tags:
     - installation
     - kibana
@@ -17,7 +17,7 @@
 
 - name: Unarchive package | Kibana
   unarchive:
-    src: /tmp/kibana-4.0.2-linux-x64.tar.gz
+    src: /tmp/kibana-4.1.2-linux-x64.tar.gz
     dest: /opt/kibana
     copy: no
   tags:
