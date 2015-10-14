@@ -1,0 +1,8 @@
+---
+
+- name: Service start | kibana4
+  service:
+    state: started
+    name: kibana4
+  tags:
+    - disruptive

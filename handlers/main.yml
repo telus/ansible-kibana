@@ -1,0 +1,7 @@
+---
+- name: Reload Service | kibana
+  service:
+    state: reloaded
+    name: kibana4
+  tags:
+    - disruptive
