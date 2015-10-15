@@ -1,4 +1,9 @@
 ---
+- name: Upload startup script
+	template:
+	  src: init.sh
+	  dest: /etc/init.d/kibana4
+	  mode: "u=xrw,g=r,o=r"
 
 - name: Service start | kibana4
   service:
