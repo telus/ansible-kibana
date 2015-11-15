@@ -3,7 +3,7 @@
   template:
     src: init.sh
     dest: /etc/init.d/kibana4
-    mode: "u=xrw,g=r,o=r"
+    mode: 744
 
 - name: Service start | kibana4
   service:

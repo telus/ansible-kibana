@@ -1,3 +1,3 @@
 ---
-kibana_elasticsearch_url: "http://logs.logger-{{environment_tier}}.teluswebteam.com:9200"
+kibana_elasticsearch_url: "logs.logger-{{ environment_tier }}.{{ domain }}.com:9200"
 kibana_version: 4.2.0

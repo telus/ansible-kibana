@@ -15,7 +15,11 @@
 ### END INIT INFO
 
 #configure this with wherever you unpacked kibana:
+<<<<<<< HEAD
 KIBANA_BIN=/opt/kibana/kibana-{{kibana_version}}-linux-x64/bin
+=======
+KIBANA_BIN=/opt/kibana/kibana-{{ kibana_version }}-linux-x64/bin
+>>>>>>> 5dd17efa415cc69ceb67157f32a9a307649b6e36
 
 PID_FILE=/var/run/$NAME.pid
 PATH=/bin:/usr/bin:/sbin:/usr/sbin:$KIBANA_BIN
