@@ -6,3 +6,5 @@
   roles:
     # name of role to test
     - role: ansible-kibana
+      environment_tier: travis
+      domain: travis.com
