@@ -1,5 +1,5 @@
 # Kibana is served by a back end server. This controls which port to use.
-port: 5601
+port: 80
 
 # The host to bind the server to.
 host: "0.0.0.0"
@@ -46,8 +46,8 @@ shard_timeout: 0
 verify_ssl: true
 
 # SSL for outgoing requests from the Kibana Server (PEM formatted)
-# ssl_key_file: /path/to/your/server.key
-# ssl_cert_file: /path/to/your/server.crt
+# ssl_key_file: /opt/kibana/kibana.key
+# ssl_cert_file: /opt/kibana/kibana.crt
 
 # Set the path to where you would like the process id file to be created.
 # pid_file: /var/run/kibana.pid
